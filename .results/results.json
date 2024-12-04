@@ -1,0 +1,382 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "When the Page is opened, an HTTP GET request should be made to the given dishesApiUrl to get the list of dishes",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should consist of an HTML heading element with text content as \"UNI Resto Cafe\" the value of the key \"restaurant_name\" received from the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_14",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should consist of an HTML paragraph element with text content as \"My Orders\" in the Header",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_15",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should consist of HTML button elements to display the list of menu categories with text content of each button corresponding to the value of the key \"menu_category\" received from the response within the \"table_menu_list\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_16",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", then the page should consist of an HTML heading element with text content as the value of the key \"dish_name\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_17",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_currency\" and \"dish_price\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_18",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_description\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_19",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_calories\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_20",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", then the page should consist of an HTML image element with src as the value of the key \"dish_image\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_21",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should initially consist of an HTML paragraph elements to display the count of each dish quantity with text content as \"0\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_22",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should consist of an HTML button element with text content as \"-\" which refers decrement",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_23",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should consist of an HTML button element with text content as \"+\" which refers increment",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_24",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Barnyard\", then the page should consist of an HTML heading element with text content as the value of the key \"dish_name\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_25",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Barnyard\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_currency\" and \"dish_price\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_26",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Barnyard\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_description\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_27",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Barnyard\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_calories\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_28",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Barnyard\", then the page should consist of an HTML image element with src as the value of the key \"dish_image\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_29",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Hen House\", then the page should initially consist of an HTML paragraph elements to display the count of each dish quantity with text content as \"0\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_30",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Hen House\", then the page should consist of an HTML button element with text content as \"-\" which refers decrement",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_31",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Hen House\", then the page should consist of an HTML button element with text content as \"+\" which refers increment",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_32",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Fresh From The Sea\", then the page should consist of an HTML heading element with text content as the value of the key \"dish_name\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_33",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Biryani\", then the page should consist of an HTML heading element with text content as the value of the key \"dish_name\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_34",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Fast Food\", then the page should consist of an HTML paragraph element with text content as \"Customizations available\" as the key \"addonCat\" has the values received from the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_35",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Biryani\", then the page should not consist of an HTML paragraph element with text content as \"Customizations available\" as the key \"addonCat\" has no values received from the response ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_36",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Biryani\", then the page should consist of an HTML paragraph element with text content as \"Not available\" as one of the keys \"dish_Availability\" has the value \"false\" received from the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_37",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Fast Food\", then the page should not consist of an HTML paragraph element with text content as \"Not available\" as all \"dish_Availability\" keys has the value \"true\" received from the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_38",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Fresh From The Sea\", then the page should not consist of an HTML button elements with text content as \"-\" and \"+\" along with its quantity as all \"dish_Availability\" keys has the value \"false\" received from the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_39",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", and when the \"+\" button in the Page is clicked and the particular \"dish quantity\" count is greater than zero, then the button with text content \"ADD TO CART\" should be appear ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_40",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", and when the \"-\" button in the Page is clicked initially, then the \"dish quantity\" count or \"cart count\" should not be decremented",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_41",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", and when the \"+\" button in the Page is clicked, then the particular \"dish quantity\" count should be incremented by one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_42",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", and when the button with text content \"ADD TO CART\" is clicked , then the \"cart count\" should not be incremented by one ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_43",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", and when you click the \"+\" button on the page first, and then click the \"-\" button, it should reduce the quantity of that specific dish by one ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_44",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, the tabs must not be hardcoded, its length should change as per API",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_45",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should not consist of an HTML button element with text content as \"ADD TO CART\" ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_46",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/login\" is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_47",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/login\" is provided as the URL path by an authenticated user, then the page should be navigated to the Home Route and consist of an HTML main heading element with text content as \"UNI Resto Cafe\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_48",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML form element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_49",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML input element with label text as \"USERNAME\" and type attribute value as \"text\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_50",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML input element with label text as \"PASSWORD\" and type attribute value as \"password\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_51",
+      "evaluation_result": "CORRECT",
+      "title": "When a non-empty value is provided in the HTML input element with the label text as \"USERNAME\", then the value provided should be displayed in the HTML input element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_52",
+      "evaluation_result": "CORRECT",
+      "title": "When a non-empty value is provided in the HTML input element with the label text as \"PASSWORD\", then the value provided should be displayed in the HTML input element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_53",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML button element with text content as \"Login\" and type attribute value as \"submit\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_54",
+      "evaluation_result": "CORRECT",
+      "title": "When non-empty values are provided for username and password input and the Login button is clicked, an HTTP POST request should be made to the given Login API URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_55",
+      "evaluation_result": "CORRECT",
+      "title": "When non-empty values are provided for username and password input and the Login button is clicked, then an HTTP POST request should be made to the given Login API URL with request object containing the keys \"username\" and \"password\" with the values provided respectively",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_56",
+      "evaluation_result": "CORRECT",
+      "title": "When username and password are empty and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_57",
+      "evaluation_result": "CORRECT",
+      "title": "when a non-empty password is provided and the Login button is clicked with an empty username, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_58",
+      "evaluation_result": "CORRECT",
+      "title": "when a non-empty username is provided and the Login button is clicked with an empty password, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_59",
+      "evaluation_result": "CORRECT",
+      "title": "when invalid username and password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_60",
+      "evaluation_result": "CORRECT",
+      "title": "when an invalid username and valid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as an error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_61",
+      "evaluation_result": "CORRECT",
+      "title": "when a valid username and an invalid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_62",
+      "evaluation_result": "CORRECT",
+      "title": "When valid username and password are provided and the Login button is clicked, then the Cookies.set() method should be called with three arguments - \"jwt_token\" string as the first argument, JWT token value as the second argument, and expiry days as the third argument",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_63",
+      "evaluation_result": "CORRECT",
+      "title": "When valid username and password are provided and the login button is clicked, then the page should be navigated to the Home Route",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "When the cart is empty, the CartRoute should consist of an HTML image element with src attribute value as URL for cart empty image",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "When the dishes are added to the cart, the count of the cart items should be displayed in the header after the cart icon button ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "When a dish is added to the cart, the CartRoute should consist of an HTML button element with text content as \"Remove All\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "When a dish is added to the cart, the page should consist of an HTML image element with src value as \"dishImage\" for dish added",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_5",
+      "evaluation_result": "CORRECT",
+      "title": "When a dish is added to the cart, the page should consist of an HTML element with text content as \"dishName\" of the dish added",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "When a dish is added to the cart, the page should consist of an HTML button element with text content as \"+\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "When a dish is added to the cart, the page should consist of an HTML button element with text content as \"-\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with text content as \"+\" is clicked, then the \"incrementCartItemQuantity\" function in \"CartContext\" should be called",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with text content as \"-\" is clicked, then the \"decrementCartItemQuantity\" function in \"CartContext\" should be called",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_10",
+      "evaluation_result": "CORRECT",
+      "title": "When multiple dishes are added to the cart, the count of the cart items should be updated in the header after the cart link",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPCTA6A_TEST_11",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Remove All\" button is clicked, then the \"removeAllCartItems\" function in \"CartContext\" should be called",
+      "errorMessages": []
+    }
+  ]
+}
